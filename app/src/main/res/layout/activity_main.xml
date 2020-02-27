@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <Button
+        android:id="@+id/btnKiir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kiír"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan"
+        android:textSize="25sp"
+        android:layout_below="@+id/btnKiir"/>
+
+    <TextView
+        android:id="@+id/textEredmeny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_below="@+id/btnScan"/>
+
+</RelativeLayout>
